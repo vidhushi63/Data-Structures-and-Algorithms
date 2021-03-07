@@ -1,3 +1,5 @@
+#First Minumum ,Second Minimum,thirdMinimum Element of node
+
 class Node:
     def __init__(self,data):
         self.data=data
