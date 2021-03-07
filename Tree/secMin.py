@@ -23,13 +23,15 @@ class Sol:
             if i<firstmin:
                 thirdmin=secmin
                 secmin=firstmin
-                firstmin=i
+                firstmin=i      #first minimum node in a tree
             elif i<secmin:
                 thirdmin=secmin
-                secmin=i
+                secmin=i        #second minimum node in tree
             elif i<thirdmin:
-                thirdmin=i
-        print(firstmin,secmin,thirdmin)
+                thirdmin=i      #third minimum node in tree
+        print("First Minimum Node in tree: ",firstmin)
+        print("Second  Minimum Node in tree: ",secmin)
+        print("Third Minimum Node in tree: ",thirdmin)
         
         
   
